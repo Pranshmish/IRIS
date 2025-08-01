@@ -34,7 +34,7 @@ export default function Home() {
         };
 
         try {
-            const res = await fetch("http://localhost:5000/predict", {
+            const res = await fetch(" https://iris-backend-fxn7.onrender.com/predict", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
